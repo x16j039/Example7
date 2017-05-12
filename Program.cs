@@ -31,19 +31,19 @@ namespace Example7
             //論理型
             bool valueBool = true;
 
-            Console.WriteLine("sbyte : {0}",valueSByte);
-            Console.WriteLine("byte : {0}",valueByte);
-            Console.WriteLine("short : {0}",valueShrot);
-            Console.WriteLine("ushrot : {0}",valueUShrot);
-            Console.WriteLine("int : {0}",valueInt);
-            Console.WriteLine("uint : {0}",valueUInt);
-            Console.WriteLine("long : {0}",valueLong);
-            Console.WriteLine("ulong : {0}",valueULong);
-            Console.WriteLine("float : {0}",valueFloat);
-            Console.WriteLine("doubule : {0}",valueDouble);
-            Console.WriteLine("char : {0}",valueChar);
-            Console.WriteLine("string : {0}",valueString);
-            Console.WriteLine("bool : {0}",valueBool);
+            Console.WriteLine("{1} : {0}",valueSByte,valueSByte.GetType().Name);
+            Console.WriteLine("{1} : {0}",valueByte, valueByte.GetType().Name);
+            Console.WriteLine("{1} : {0}",valueShrot,valueShrot.GetType().Name);
+            Console.WriteLine("{1} : {0}",valueUShrot, valueUShrot.GetType().Name);
+            Console.WriteLine("{1} : {0}",valueInt, valueInt.GetType().Name);
+            Console.WriteLine("{1} : {0}",valueUInt,valueUInt.GetType().Name);
+            Console.WriteLine("{1} : {0}",valueLong,valueLong.GetType().Name);
+            Console.WriteLine("{1} : {0}",valueULong,valueULong.GetType().Name);
+            Console.WriteLine("{1} : {0}",valueFloat,valueFloat.GetType().Name);
+            Console.WriteLine("{1} : {0}",valueDouble,valueDouble.GetType().Name);
+            Console.WriteLine("{1} : {0}",valueChar,valueChar.GetType().Name);
+            Console.WriteLine("{1} : {0}",valueString,valueString.GetType().Name);
+            Console.WriteLine("{1} : {0}", valueBool,valueBool.GetType().Name);
 
             Console.ReadLine();
         }
